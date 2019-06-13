@@ -1,0 +1,26 @@
+{
+  "name": "cnlg",
+  "version": "0.0.0",
+  "description": "Alias to console.log that simplify and optimizes the logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielVenturini/cnlg.git"
+  },
+  "keywords": [
+    "console.log",
+    "console",
+    "log",
+    "alias",
+    "simple"
+  ],
+  "author": "danielventurini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielVenturini/cnlg/issues"
+  },
+  "homepage": "https://github.com/DanielVenturini/cnlg#readme"
+}
