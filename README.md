@@ -20,6 +20,7 @@ var a = 'my string'
 var b = 123
 var c = 'my another string'
 
+// slowly code
 console.log('a: ' + a) // a: my string
 console.log('b: ' + b) // b: 123
 console.log('c: ' + c) // c: my another string
@@ -36,4 +37,18 @@ cnlg({a, b, c})
 // a: my string
 // b: 123
 // c: my another string
+```
+
+## Compatibility
+It runs on
+
+| Node | Works |
+|---|---|
+| v0.x - v1.x | :warning: |
+| v2.x - latest (v12) | :heavy_check_mark: |
+
+It doesn't work in Node.Js 0.x and io.js 1.x because it expects a key followed by a mapping:
+
+```Javascript
+cnlg({a:a, b:b, c:c})
 ```
