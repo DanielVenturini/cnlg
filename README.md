@@ -3,19 +3,22 @@ Simplify and optimize your `console.log`.
 
 ## Getting Started
 Install the package using `npm`:
+
 ```bash
 npm install cnlg
 ```
 
 ## Usage
 All parameters in `cnlg` must be passed like an object:
-```Javascript
+
+```javascript
 cnlg({a, b, c})
 ```
 
 ## Example
 If you want print the variables like this:
-```Javascript
+
+```javascript
 var a = 'my string'
 var b = 123
 var c = 'my another string'
@@ -27,7 +30,8 @@ console.log('c: ' + c) // c: my another string
 ```
 
 you can just do the same with `cnlg`:
-```Javascript
+
+```javascript
 const cnlg = require('cnlg')
 var a = 'my string'
 var b = 123
@@ -36,6 +40,16 @@ var c = 'my another string'
 cnlg({a, b, c})
 // a: my string
 // b: 123
+// c: my another string
+```
+
+you also can break lines between the variables:
+
+```Javascript
+cnlg({a, b}, {c})
+// a: my string
+// b: 123
+//
 // c: my another string
 ```
 
