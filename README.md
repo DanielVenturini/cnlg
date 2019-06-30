@@ -45,7 +45,7 @@ cnlg({a, b, c})
 
 you also can break lines between the variables:
 
-```Javascript
+```javascript
 cnlg({a, b}, {c})
 // a: my string
 // b: 123
@@ -63,6 +63,6 @@ It runs on
 
 It doesn't work in Node.Js 0.x and io.js 1.x because it expects a key followed by a mapping:
 
-```Javascript
+```javascript
 cnlg({a:a, b:b, c:c})
 ```
