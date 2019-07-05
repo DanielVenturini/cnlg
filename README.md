@@ -5,7 +5,7 @@ Simplify and optimize your `console.log`.
 Install the package using `npm`:
 
 ```bash
-npm install cnlg
+npm install cnlg --save-dev
 ```
 
 ## Usage
