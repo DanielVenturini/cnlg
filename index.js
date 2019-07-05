@@ -1,6 +1,6 @@
 function vars(argsKeys) {
   Object.keys(argsKeys).forEach(function (key) {
-    console.log(key + ': ' + argsKeys[key])
+    console.log(key + ': ' + JSON.stringify(argsKeys[key]))
   })
 }
 
